@@ -1,13 +1,15 @@
 {
-  "engines": [],
-  "template": "",
-  "exclusions": [],
-  "timeouts": {
-    "defaultTimeout": 60,
-    "maxTimeout": 120
-  },
-  "maxFileSize": 1024,
-  "javaEngineGeneration": 2,
-  "jsEngineGeneration": 2,
-  "csharpEngineGeneration": 2
+  "scans": {
+    "engines": [],
+    "template": "",
+    "exclusions": [],
+    "timeouts": {
+      "perLanguage": 480,
+      "perFile": 60
+    },
+    "maxFileSize": 1024,
+    "javaEngineGeneration": 1,
+    "jsEngineGeneration": 2,
+    "csharpEngineGeneration": 1
+  }
 }
