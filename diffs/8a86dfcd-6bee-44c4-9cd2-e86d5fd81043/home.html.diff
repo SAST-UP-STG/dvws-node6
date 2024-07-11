@@ -24,7 +24,7 @@
              <script>
 @@ -22,1 +22,1 @@
 -               var url = window.location.href; var hash = url.substring(url.indexOf('#') + 1);
-+                var url = window.location.href; var hash = url.substring(url.indexOf('#') + 1); hash = hash.replace(/</g, '&lt;').replace(/>/g, '&gt;');
++                 var url = window.location.href; var hash = url.substring(url.indexOf('#') + 1).replace(/</g, '&lt;').replace(/>/g, '&gt;');
                 document.write('Welcome User: <b>' + hash + '</b>');
              </script>
               <p>DVWS Release: {{ ResponseMessage  }}</p>
